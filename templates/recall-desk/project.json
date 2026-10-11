@@ -1,0 +1,115 @@
+{
+  "format": "recall-desk-authoring",
+  "version": 1,
+  "kind": "recall-desk",
+  "id": "recall-desk-starter",
+  "title": "Recall Desk study starter",
+  "revision": 1,
+  "description": "General study starter. Replace demonstration content and source placeholders before assessment.",
+  "phases": [
+    {
+      "key": "baseline",
+      "title": "Phase 0 — Establish a baseline",
+      "description": "Complete the diagnostic with confidence and familiarity annotations. Preserve the original answers.",
+      "references": [
+        {
+          "document": "roadmap",
+          "heading": "Phase 0 — Establish a baseline"
+        }
+      ]
+    },
+    {
+      "key": "triage",
+      "title": "Phase 1 — Review the evidence",
+      "description": "Review reasoning by objective. Select up to three active repair targets; keep the remainder parked.",
+      "references": [
+        {
+          "document": "roadmap",
+          "heading": "Phase 1 — Review the evidence"
+        }
+      ]
+    },
+    {
+      "key": "repair",
+      "title": "Phase 2 — Repair specific gaps",
+      "description": "Read the smallest relevant guide section, predict a changed scenario, and record the corrected distinction.",
+      "references": [
+        {
+          "document": "roadmap",
+          "heading": "Phase 2 — Repair specific gaps"
+        }
+      ]
+    },
+    {
+      "key": "practice",
+      "title": "Phase 3 — Apply the concepts",
+      "description": "Use a small lab, exercise, or relevant course activity. Record expected versus observed behavior.",
+      "references": [
+        {
+          "document": "roadmap",
+          "heading": "Phase 3 — Apply the concepts"
+        }
+      ]
+    },
+    {
+      "key": "transfer",
+      "title": "Phase 4 — Confirm transfer and coverage",
+      "description": "Use fresh scenarios and acknowledge objectives with insufficient evidence. Avoid treating recognition as mastery.",
+      "references": [
+        {
+          "document": "roadmap",
+          "heading": "Phase 4 — Confirm transfer and coverage"
+        }
+      ]
+    },
+    {
+      "key": "rehearsal",
+      "title": "Phase 5 — Integrate and rehearse",
+      "description": "Connect concepts in a complete scenario. Use a fresh assessment and review pacing if relevant.",
+      "references": [
+        {
+          "document": "roadmap",
+          "heading": "Phase 5 — Integrate and rehearse"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "key": "concept-repair",
+      "title": "Targeted concept repair",
+      "description": "Optional: repair one demonstrated gap and explain a close alternative.",
+      "references": [
+        {
+          "document": "guide",
+          "heading": "Concepts and distinctions"
+        }
+      ]
+    },
+    {
+      "key": "applied-check",
+      "title": "Small applied check",
+      "description": "Optional: predict and observe one normal and one failure path.",
+      "references": [
+        {
+          "document": "guide",
+          "heading": "Applied practice"
+        }
+      ]
+    },
+    {
+      "key": "transfer-check",
+      "title": "Fresh transfer check",
+      "description": "Optional: change the assumptions and explain the new outcome.",
+      "references": [
+        {
+          "document": "guide",
+          "heading": "Transfer check"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Starter contains a labeled demonstration question. Replace it and the source placeholders before using it for actual study."
+  ]
+}

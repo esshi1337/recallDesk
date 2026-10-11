@@ -1,0 +1,17 @@
+import { cp, mkdir, writeFile, chmod, access } from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+if (process.platform !== 'linux') throw new Error('Local installation currently supports Linux. Use npm run make on other platforms.');
+const source = path.resolve(`out/Recall Desk-linux-${process.arch}`);
+await access(source);
+const target = path.join(os.homedir(), '.local/opt/recall-desk');
+await mkdir(target, { recursive: true });
+await cp(source, target, { recursive: true });
+const applications = path.join(os.homedir(), '.local/share/applications');
+const icons = path.join(os.homedir(), '.local/share/icons/hicolor/scalable/apps');
+await mkdir(applications, { recursive: true });
+await mkdir(icons, { recursive: true });
+await cp('assets/icon.svg', path.join(icons, 'recall-desk.svg'));
+await writeFile(path.join(applications, 'recall-desk.desktop'), `[Desktop Entry]\nType=Application\nName=Recall Desk\nComment=Your offline certification study desk\nExec="${target}/recall-desk" %U\nIcon=recall-desk\nTerminal=false\nCategories=Education;\nStartupWMClass=Recall Desk\n`);
+await chmod(path.join(target, 'recall-desk'), 0o755);
+console.log(`Installed Recall Desk in ${target}. Launch it from your application menu.`);

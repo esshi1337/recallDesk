@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "salesforce-certification-starter-baseline",
+  "revision": 1,
+  "title": "Salesforce certification starter — starter demonstration",
+  "description": "Authoring starter with one labeled demonstration question. Replace it before using this as a real diagnostic.",
+  "certification": "Salesforce certification starter",
+  "instructions": "Replace all demonstration content before study. Record K (can explain), R (reasoned but uncertain), or G (guess/elimination), familiarity, and any outside help. You may pause between sections. No official timing or pass threshold is assumed.",
+  "diagnostic": true,
+  "sourceCatalog": "Add source identifiers, exact URLs/document names, versions, and sections here. Do not fabricate references.",
+  "questions": [
+    {
+      "id": "TEMPLATE-01",
+      "type": "single-choice",
+      "prompt": "**Template demonstration — not a certification question.** What should you do before using this starter as a real practice assessment?",
+      "tags": [
+        "Template demonstration"
+      ],
+      "options": [
+        {
+          "id": "replace",
+          "text": "Replace the demonstration with source-backed questions and verify every answer.",
+          "explanation": "The starter supplies structure. The actual subject content and answer evidence must be authored and checked."
+        },
+        {
+          "id": "rename",
+          "text": "Only rename the certification.",
+          "explanation": "Changing the title does not create questions that assess the new subject."
+        },
+        {
+          "id": "weights",
+          "text": "Reuse another certification’s objective weights without checking.",
+          "explanation": "The objective map should come from the applicable current source."
+        },
+        {
+          "id": "mastery",
+          "text": "Treat this demonstration score as proof of mastery.",
+          "explanation": "This question checks how to use the template, not the subject being studied."
+        }
+      ],
+      "correctOptionIds": [
+        "replace"
+      ],
+      "explanation": "Use exam.json as the single source of truth. The build command derives the candidate and answer key from it, checks references, and calculates document checksums.",
+      "shuffleOptions": false,
+      "sources": [
+        "Recall Desk template authoring instructions"
+      ],
+      "section": "Template demonstration",
+      "objective": "template-authoring",
+      "diagnosticTopic": "Source-backed question authoring"
+    }
+  ],
+  "passingPercent": 70
+}

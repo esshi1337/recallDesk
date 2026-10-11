@@ -1,0 +1,33 @@
+# Dependencies and generated output
+node_modules/
+dist/
+dist-web/
+dist-electron/
+out/
+test-artifacts/
+playwright-report/
+coverage/
+*.log
+
+# Personal study material and local application data
+study-materials/*
+!study-materials/.gitkeep
+local/
+study-data/
+backups/
+import-inbox/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.imported
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

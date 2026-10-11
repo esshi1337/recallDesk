@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "my-certification-exam",
+  "revision": 1,
+  "title": "My practice exam",
+  "description": "Replace this example with your own questions.",
+  "certification": "Your certification or subject",
+  "passingPercent": 70,
+  "questions": [
+    {
+      "id": "question-001", "type": "single-choice",
+      "prompt": "Replace this with your **question**.", "tags": ["Topic"],
+      "options": [
+        {"id": "option-one", "text": "Correct option", "explanation": "Explain why this answer is correct."},
+        {"id": "option-two", "text": "Incorrect option", "explanation": "Explain why this answer is incorrect."}
+      ],
+      "correctOptionIds": ["option-one"],
+      "explanation": "Explain the underlying concept.", "sources": []
+    }
+  ]
+}

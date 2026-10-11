@@ -1,0 +1,417 @@
+{
+  "format": "recall-desk-study-pack",
+  "version": 1,
+  "id": "arithmetic-example",
+  "title": "Arithmetic sample",
+  "revision": 1,
+  "exams": [
+    {
+      "schemaVersion": 1,
+      "id": "arithmetic-example-baseline",
+      "revision": 1,
+      "title": "Arithmetic sample — baseline",
+      "description": "Original demonstration content for learning the app and testing imports. Not a certification assessment.",
+      "certification": "",
+      "instructions": "Answer without opening the guide. Record confidence and familiarity, then review your reasoning.",
+      "diagnostic": true,
+      "sourceCatalog": "Original arithmetic examples supplied with Recall Desk.",
+      "questions": [
+        {
+          "id": "S1-01",
+          "type": "single-choice",
+          "prompt": "What is 6 × 7?",
+          "tags": [
+            "1. Arithmetic"
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "36",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "B",
+              "text": "40",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "C",
+              "text": "41",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "D",
+              "text": "42",
+              "explanation": "Six groups of seven total 42."
+            },
+            {
+              "id": "E",
+              "text": "48",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "F",
+              "text": "49",
+              "explanation": "This value does not satisfy the question."
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "explanation": "Six groups of seven total 42.",
+          "shuffleOptions": false,
+          "sources": [
+            "Original Recall Desk arithmetic sample"
+          ],
+          "section": "1. Arithmetic",
+          "objective": "arithmetic",
+          "diagnosticTopic": "1. Arithmetic"
+        },
+        {
+          "id": "S1-02",
+          "type": "single-choice",
+          "prompt": "What is 9 + 6?",
+          "tags": [
+            "1. Arithmetic"
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "12",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "B",
+              "text": "14",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "C",
+              "text": "15",
+              "explanation": "Adding six to nine gives fifteen."
+            },
+            {
+              "id": "D",
+              "text": "16",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "E",
+              "text": "18",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "F",
+              "text": "20",
+              "explanation": "This value does not satisfy the question."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "explanation": "Adding six to nine gives fifteen.",
+          "shuffleOptions": false,
+          "sources": [
+            "Original Recall Desk arithmetic sample"
+          ],
+          "section": "1. Arithmetic",
+          "objective": "arithmetic",
+          "diagnosticTopic": "1. Arithmetic"
+        },
+        {
+          "id": "S2-01",
+          "type": "single-choice",
+          "prompt": "What comes next: 2, 4, 6, 8, …?",
+          "tags": [
+            "2. Patterns"
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "9",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "B",
+              "text": "10",
+              "explanation": "The sequence increases by two at each step."
+            },
+            {
+              "id": "C",
+              "text": "11",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "D",
+              "text": "12",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "E",
+              "text": "14",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "F",
+              "text": "16",
+              "explanation": "This value does not satisfy the question."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "explanation": "The sequence increases by two at each step.",
+          "shuffleOptions": false,
+          "sources": [
+            "Original Recall Desk arithmetic sample"
+          ],
+          "section": "2. Patterns",
+          "objective": "patterns",
+          "diagnosticTopic": "2. Patterns"
+        },
+        {
+          "id": "S2-02",
+          "type": "single-choice",
+          "prompt": "Which number is even?",
+          "tags": [
+            "2. Patterns"
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "3",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "B",
+              "text": "5",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "C",
+              "text": "7",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "D",
+              "text": "9",
+              "explanation": "This value does not satisfy the question."
+            },
+            {
+              "id": "E",
+              "text": "12",
+              "explanation": "Twelve divides by two without a remainder."
+            },
+            {
+              "id": "F",
+              "text": "15",
+              "explanation": "This value does not satisfy the question."
+            }
+          ],
+          "correctOptionIds": [
+            "E"
+          ],
+          "explanation": "Twelve divides by two without a remainder.",
+          "shuffleOptions": false,
+          "sources": [
+            "Original Recall Desk arithmetic sample"
+          ],
+          "section": "2. Patterns",
+          "objective": "patterns",
+          "diagnosticTopic": "2. Patterns"
+        }
+      ],
+      "passingPercent": 70
+    }
+  ],
+  "resources": [
+    {
+      "id": "arithmetic-example-guide",
+      "packId": "arithmetic-example",
+      "title": "Arithmetic sample — Study guide",
+      "kind": "guide",
+      "fileName": "guide.md",
+      "sha256": "b4499635aff83a60bc53fe4d9b87333bc5e30abf626ee296c307c432e47dd525",
+      "markdown": "# Arithmetic sample — Study guide\n\nOriginal sample content for trying Recall Desk.\n\n## Concepts and distinctions\n\nMultiplication counts equal groups: 6 × 7 = 42. Addition combines quantities: 9 + 6 = 15.\n\n| Operation | Example | Result |\n|---|---|---|\n| Multiplication | 6 × 7 | 42 |\n| Addition | 9 + 6 | 15 |\n\n## Applied practice\n\nPredict 4 × 7 before counting four groups of seven. [Sample missing attachment](missing-worksheet.pdf) demonstrates the missing-file message.\n\n## Transfer check\n\nThe sequence 2, 4, 6, 8 increases by two, so its next value is 10. An even integer is divisible by two; 12 is even.\n"
+    },
+    {
+      "id": "arithmetic-example-roadmap",
+      "packId": "arithmetic-example",
+      "title": "Arithmetic sample — Adaptive roadmap",
+      "kind": "roadmap",
+      "fileName": "roadmap.md",
+      "sha256": "abf09f9cf75c185cd1a38eb10be40a499d79e45e72dbba73edac6b61e1adc8cf",
+      "markdown": "# Arithmetic sample — Adaptive roadmap\n\nThis is an undated plan. Study assignments stay provisional until the baseline has been reviewed. [Open the guide](guide.md).\n\n## Phase 0 — Establish a baseline\n\nComplete the diagnostic with confidence and familiarity annotations. Preserve the original answers.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 1 — Review the evidence\n\nReview reasoning by objective. Select up to three active repair targets; keep the remainder parked.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 2 — Repair specific gaps\n\nRead the smallest relevant guide section, predict a changed scenario, and record the corrected distinction.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 3 — Apply the concepts\n\nUse a small lab, exercise, or relevant course activity. Record expected versus observed behavior.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 4 — Confirm transfer and coverage\n\nUse fresh scenarios and acknowledge objectives with insufficient evidence. Avoid treating recognition as mastery.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 5 — Integrate and rehearse\n\nConnect concepts in a complete scenario. Use a fresh assessment and review pacing if relevant.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Optional modules\n\nSelect modules from observed gaps; these are not mandatory assignments. Add or remove modules in project.json and link them to guide headings.\n\n- Targeted concept repair\n- Small applied check\n- Fresh transfer check\n\n## Session note\n\nWhat changed in my understanding: [fill in]\n\nNext concrete action: [fill in]\n\n## Review before scheduling an exam\n\nUse current source requirements, meaningful objective coverage, and fresh application evidence. No readiness percentage or pass guarantee is implied.\n"
+    },
+    {
+      "id": "arithmetic-example-candidate",
+      "packId": "arithmetic-example",
+      "title": "Arithmetic sample — baseline — Candidate",
+      "kind": "candidate",
+      "fileName": "candidate.md",
+      "sha256": "207bf87e8092993c7e2687fa29083d8e1c77ca4fc059be13bab79f61ee2266b3",
+      "markdown": "# Arithmetic sample — baseline — Candidate\n\nAnswer without opening the guide. Record confidence and familiarity, then review your reasoning.\n\n**Started:** ____  **Finished:** ____\n**Outside help or study:** ____\n\n## 1. Arithmetic\n\n### S1-01\n\nWhat is 6 × 7?\n\n- **A.** 36\n- **B.** 40\n- **C.** 41\n- **D.** 42\n- **E.** 48\n- **F.** 49\n\n**Your answer:** ____  **Confidence (K/R/G):** ____  **Familiar (Yes/No):** ____\n\n**Reasoning / ambiguity note:**\n\n---\n\n### S1-02\n\nWhat is 9 + 6?\n\n- **A.** 12\n- **B.** 14\n- **C.** 15\n- **D.** 16\n- **E.** 18\n- **F.** 20\n\n**Your answer:** ____  **Confidence (K/R/G):** ____  **Familiar (Yes/No):** ____\n\n**Reasoning / ambiguity note:**\n\n---\n\n## 2. Patterns\n\n### S2-01\n\nWhat comes next: 2, 4, 6, 8, …?\n\n- **A.** 9\n- **B.** 10\n- **C.** 11\n- **D.** 12\n- **E.** 14\n- **F.** 16\n\n**Your answer:** ____  **Confidence (K/R/G):** ____  **Familiar (Yes/No):** ____\n\n**Reasoning / ambiguity note:**\n\n---\n\n### S2-02\n\nWhich number is even?\n\n- **A.** 3\n- **B.** 5\n- **C.** 7\n- **D.** 9\n- **E.** 12\n- **F.** 15\n\n**Your answer:** ____  **Confidence (K/R/G):** ____  **Familiar (Yes/No):** ____\n\n**Reasoning / ambiguity note:**\n\n---\n"
+    },
+    {
+      "id": "arithmetic-example-answer-key",
+      "packId": "arithmetic-example",
+      "title": "Arithmetic sample — baseline — Answer key",
+      "kind": "answer-key",
+      "fileName": "answer-key.md",
+      "sha256": "d249b97c6c767e894b07b216a9eb2f1d2455d14042b666d5788e0ef9d0e33741",
+      "markdown": "# Arithmetic sample — baseline — Answer key\n\nOpen when you are ready to review the answers.\n\nOriginal arithmetic examples supplied with Recall Desk.\n\n## 1. Arithmetic\n\n### S1-01\n\nWhat is 6 × 7?\n\n- **A.** 36\n- **B.** 40\n- **C.** 41\n- **D.** 42\n- **E.** 48\n- **F.** 49\n\n**Correct answer:** D\n\n**Explanation:**\n\nSix groups of seven total 42.\n\n**A:** This value does not satisfy the question.\n\n**B:** This value does not satisfy the question.\n\n**C:** This value does not satisfy the question.\n\n**D:** Six groups of seven total 42.\n\n**E:** This value does not satisfy the question.\n\n**F:** This value does not satisfy the question.\n\n**Objective:** arithmetic · **Diagnostic topic:** 1. Arithmetic\n\n**Sources:**\n- Original Recall Desk arithmetic sample\n\n---\n\n### S1-02\n\nWhat is 9 + 6?\n\n- **A.** 12\n- **B.** 14\n- **C.** 15\n- **D.** 16\n- **E.** 18\n- **F.** 20\n\n**Correct answer:** C\n\n**Explanation:**\n\nAdding six to nine gives fifteen.\n\n**A:** This value does not satisfy the question.\n\n**B:** This value does not satisfy the question.\n\n**C:** Adding six to nine gives fifteen.\n\n**D:** This value does not satisfy the question.\n\n**E:** This value does not satisfy the question.\n\n**F:** This value does not satisfy the question.\n\n**Objective:** arithmetic · **Diagnostic topic:** 1. Arithmetic\n\n**Sources:**\n- Original Recall Desk arithmetic sample\n\n---\n\n## 2. Patterns\n\n### S2-01\n\nWhat comes next: 2, 4, 6, 8, …?\n\n- **A.** 9\n- **B.** 10\n- **C.** 11\n- **D.** 12\n- **E.** 14\n- **F.** 16\n\n**Correct answer:** B\n\n**Explanation:**\n\nThe sequence increases by two at each step.\n\n**A:** This value does not satisfy the question.\n\n**B:** The sequence increases by two at each step.\n\n**C:** This value does not satisfy the question.\n\n**D:** This value does not satisfy the question.\n\n**E:** This value does not satisfy the question.\n\n**F:** This value does not satisfy the question.\n\n**Objective:** patterns · **Diagnostic topic:** 2. Patterns\n\n**Sources:**\n- Original Recall Desk arithmetic sample\n\n---\n\n### S2-02\n\nWhich number is even?\n\n- **A.** 3\n- **B.** 5\n- **C.** 7\n- **D.** 9\n- **E.** 12\n- **F.** 15\n\n**Correct answer:** E\n\n**Explanation:**\n\nTwelve divides by two without a remainder.\n\n**A:** This value does not satisfy the question.\n\n**B:** This value does not satisfy the question.\n\n**C:** This value does not satisfy the question.\n\n**D:** This value does not satisfy the question.\n\n**E:** Twelve divides by two without a remainder.\n\n**F:** This value does not satisfy the question.\n\n**Objective:** patterns · **Diagnostic topic:** 2. Patterns\n\n**Sources:**\n- Original Recall Desk arithmetic sample\n\n---\n"
+    }
+  ],
+  "goal": {
+    "id": "arithmetic-example-goal",
+    "title": "Arithmetic sample",
+    "description": "Original demonstration content for learning the app and testing imports. Not a certification assessment.",
+    "examIds": [
+      "arithmetic-example-baseline"
+    ],
+    "archived": false,
+    "createdAt": "2026-10-01T00:00:00.000Z"
+  },
+  "milestones": [
+    {
+      "id": "arithmetic-example-baseline",
+      "goalId": "arithmetic-example-goal",
+      "title": "Phase 0 — Establish a baseline",
+      "description": "Complete the diagnostic with confidence and familiarity annotations. Preserve the original answers.",
+      "status": "planned",
+      "order": 0,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-roadmap",
+          "headingId": "heading-1"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-example-triage",
+      "goalId": "arithmetic-example-goal",
+      "title": "Phase 1 — Review the evidence",
+      "description": "Review reasoning by objective. Select up to three active repair targets; keep the remainder parked.",
+      "status": "planned",
+      "order": 1,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-roadmap",
+          "headingId": "heading-2"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-example-repair",
+      "goalId": "arithmetic-example-goal",
+      "title": "Phase 2 — Repair specific gaps",
+      "description": "Read the smallest relevant guide section, predict a changed scenario, and record the corrected distinction.",
+      "status": "planned",
+      "order": 2,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-roadmap",
+          "headingId": "heading-3"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-example-practice",
+      "goalId": "arithmetic-example-goal",
+      "title": "Phase 3 — Apply the concepts",
+      "description": "Use a small lab, exercise, or relevant course activity. Record expected versus observed behavior.",
+      "status": "planned",
+      "order": 3,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-roadmap",
+          "headingId": "heading-4"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-example-transfer",
+      "goalId": "arithmetic-example-goal",
+      "title": "Phase 4 — Confirm transfer and coverage",
+      "description": "Use fresh scenarios and acknowledge objectives with insufficient evidence. Avoid treating recognition as mastery.",
+      "status": "planned",
+      "order": 4,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-roadmap",
+          "headingId": "heading-5"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-example-rehearsal",
+      "goalId": "arithmetic-example-goal",
+      "title": "Phase 5 — Integrate and rehearse",
+      "description": "Connect concepts in a complete scenario. Use a fresh assessment and review pacing if relevant.",
+      "status": "planned",
+      "order": 5,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-roadmap",
+          "headingId": "heading-6"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "arithmetic-example-concept-repair",
+      "goalId": "arithmetic-example-goal",
+      "title": "Targeted concept repair",
+      "description": "Optional: repair one demonstrated gap and explain a close alternative.",
+      "status": "planned",
+      "order": 0,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-guide",
+          "headingId": "heading-1"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-example-applied-check",
+      "goalId": "arithmetic-example-goal",
+      "title": "Small applied check",
+      "description": "Optional: predict and observe one normal and one failure path.",
+      "status": "planned",
+      "order": 1,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-guide",
+          "headingId": "heading-2"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-example-transfer-check",
+      "goalId": "arithmetic-example-goal",
+      "title": "Fresh transfer check",
+      "description": "Optional: change the assumptions and explain the new outcome.",
+      "status": "planned",
+      "order": 2,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "arithmetic-example-guide",
+          "headingId": "heading-3"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Small arithmetic demonstration; not a certification assessment."
+  ]
+}

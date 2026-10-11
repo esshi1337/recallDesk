@@ -1,0 +1,254 @@
+{
+  "format": "recall-desk-study-pack",
+  "version": 1,
+  "id": "recall-desk-starter",
+  "title": "Recall Desk study starter",
+  "revision": 1,
+  "exams": [
+    {
+      "schemaVersion": 1,
+      "id": "recall-desk-starter-baseline",
+      "revision": 1,
+      "title": "Recall Desk study starter — starter demonstration",
+      "description": "Authoring starter with one labeled demonstration question. Replace it before using this as a real diagnostic.",
+      "certification": "",
+      "instructions": "Replace all demonstration content before study. Record K (can explain), R (reasoned but uncertain), or G (guess/elimination), familiarity, and any outside help. You may pause between sections. No official timing or pass threshold is assumed.",
+      "diagnostic": true,
+      "sourceCatalog": "Add source identifiers, exact URLs/document names, versions, and sections here. Do not fabricate references.",
+      "questions": [
+        {
+          "id": "TEMPLATE-01",
+          "type": "single-choice",
+          "prompt": "**Template demonstration — not a certification question.** What should you do before using this starter as a real practice assessment?",
+          "tags": [
+            "Template demonstration"
+          ],
+          "options": [
+            {
+              "id": "replace",
+              "text": "Replace the demonstration with source-backed questions and verify every answer.",
+              "explanation": "The starter supplies structure. The actual subject content and answer evidence must be authored and checked."
+            },
+            {
+              "id": "rename",
+              "text": "Only rename the certification.",
+              "explanation": "Changing the title does not create questions that assess the new subject."
+            },
+            {
+              "id": "weights",
+              "text": "Reuse another certification’s objective weights without checking.",
+              "explanation": "The objective map should come from the applicable current source."
+            },
+            {
+              "id": "mastery",
+              "text": "Treat this demonstration score as proof of mastery.",
+              "explanation": "This question checks how to use the template, not the subject being studied."
+            }
+          ],
+          "correctOptionIds": [
+            "replace"
+          ],
+          "explanation": "Use exam.json as the single source of truth. The build command derives the candidate and answer key from it, checks references, and calculates document checksums.",
+          "shuffleOptions": false,
+          "sources": [
+            "Recall Desk template authoring instructions"
+          ],
+          "section": "Template demonstration",
+          "objective": "template-authoring",
+          "diagnosticTopic": "Source-backed question authoring"
+        }
+      ],
+      "passingPercent": 70
+    }
+  ],
+  "resources": [
+    {
+      "id": "recall-desk-starter-guide",
+      "packId": "recall-desk-starter",
+      "title": "Recall Desk study starter — Study guide",
+      "kind": "guide",
+      "fileName": "guide.md",
+      "sha256": "d25bf537f957826e6c93537fc182b0934a8d454ff2f15c3de0788779f75fa217",
+      "markdown": "# Recall Desk study starter — Study guide\n\nStarter template. Replace the prompts below with source-backed material for your subject.\n\n## Scope and sources\n\nDefine the topic, intended use, source dates, and what is outside the scope. If an exam or syllabus applies, record its current version.\n\n- Official outline / syllabus: [fill in]\n- Source date checked: [fill in]\n- Assessment format and timing, if applicable: [fill in from the source]\n- Starting knowledge: [establish through evidence; do not assume mastery]\n\n## Objective map\n\n| Objective ID | Topic | Official weight, if supplied | Evidence still needed |\n|---|---|---|---|\n| 1.1 | [replace with a real objective] | [do not invent] | [fresh question, explanation, or practical check] |\n\n## Concepts and distinctions\n\nFor each objective, explain the rule, when it applies, a close alternative, and a failure case. Cite the specific source section. Separate documented behavior from your own reasoning examples.\n\nState the assumptions, prerequisites, and boundary conditions that determine the answer.\n\n## Worked examples\n\nUse original scenarios with explicit inputs. Show the reasoning, including why tempting alternatives fail. Change one assumption and explain how the outcome changes.\n\n## Applied practice\n\n- Target distinction: [one specific outcome]\n- Setup and prerequisites: [smallest useful configuration]\n- Prediction: [write before trying it]\n- Normal path: [steps and expected result]\n- Failure / boundary path: [one changed condition]\n- Observation: [what actually happened]\n- Exit check: [explain or demonstrate the distinction]\n\nUse an appropriate safe practice environment. Mark unperformed steps as unverified.\n\n## Transfer check\n\nTry a fresh scenario after studying. Record confidence, familiarity, and remaining uncertainty. Keep repeated-question recall separate from fresh application.\n\n## Error log and next action\n\nTopic + mistaken rule: [fill in]\n\nCorrected distinction + fresh evidence / next check: [fill in]\n\n## Reference ledger\n\n| Claim / objective | Document or URL | Section / page | Version / checked date | Direct evidence or inference |\n|---|---|---|---|---|\n| [fill in] | [fill in] | [fill in] | [fill in] | [label it] |\n"
+    },
+    {
+      "id": "recall-desk-starter-roadmap",
+      "packId": "recall-desk-starter",
+      "title": "Recall Desk study starter — Adaptive roadmap",
+      "kind": "roadmap",
+      "fileName": "roadmap.md",
+      "sha256": "14f3464378e970e3b956caf3734371e86af07769fd7c9405cdecb8072ebb7e8c",
+      "markdown": "# Recall Desk study starter — Adaptive roadmap\n\nThis is an undated plan. Study assignments stay provisional until the baseline has been reviewed. [Open the guide](guide.md).\n\n## Phase 0 — Establish a baseline\n\nComplete the diagnostic with confidence and familiarity annotations. Preserve the original answers.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 1 — Review the evidence\n\nReview reasoning by objective. Select up to three active repair targets; keep the remainder parked.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 2 — Repair specific gaps\n\nRead the smallest relevant guide section, predict a changed scenario, and record the corrected distinction.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 3 — Apply the concepts\n\nUse a small lab, exercise, or relevant course activity. Record expected versus observed behavior.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 4 — Confirm transfer and coverage\n\nUse fresh scenarios and acknowledge objectives with insufficient evidence. Avoid treating recognition as mastery.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Phase 5 — Integrate and rehearse\n\nConnect concepts in a complete scenario. Use a fresh assessment and review pacing if relevant.\n\nDeliverable: [write an observable result]\n\nCompletion evidence: [state what is enough to move on]\n\n## Optional modules\n\nSelect modules from observed gaps; these are not mandatory assignments. Add or remove modules in project.json and link them to guide headings.\n\n- Targeted concept repair\n- Small applied check\n- Fresh transfer check\n\n## Session note\n\nWhat changed in my understanding: [fill in]\n\nNext concrete action: [fill in]\n\n## Review before scheduling an exam\n\nUse current source requirements, meaningful objective coverage, and fresh application evidence. No readiness percentage or pass guarantee is implied.\n"
+    },
+    {
+      "id": "recall-desk-starter-candidate",
+      "packId": "recall-desk-starter",
+      "title": "Recall Desk study starter — starter demonstration — Candidate",
+      "kind": "candidate",
+      "fileName": "candidate.md",
+      "sha256": "07d164e88e278297fce07ce37ac8fb9e4fa5567eb36477d2b284bdcb9144b885",
+      "markdown": "# Recall Desk study starter — starter demonstration — Candidate\n\nReplace all demonstration content before study. Record K (can explain), R (reasoned but uncertain), or G (guess/elimination), familiarity, and any outside help. You may pause between sections. No official timing or pass threshold is assumed.\n\n**Started:** ____  **Finished:** ____\n**Outside help or study:** ____\n\n## Template demonstration\n\n### TEMPLATE-01\n\n**Template demonstration — not a certification question.** What should you do before using this starter as a real practice assessment?\n\n- **A.** Replace the demonstration with source-backed questions and verify every answer.\n- **B.** Only rename the certification.\n- **C.** Reuse another certification’s objective weights without checking.\n- **D.** Treat this demonstration score as proof of mastery.\n\n**Your answer:** ____  **Confidence (K/R/G):** ____  **Familiar (Yes/No):** ____\n\n**Reasoning / ambiguity note:**\n\n---\n"
+    },
+    {
+      "id": "recall-desk-starter-answer-key",
+      "packId": "recall-desk-starter",
+      "title": "Recall Desk study starter — starter demonstration — Answer key",
+      "kind": "answer-key",
+      "fileName": "answer-key.md",
+      "sha256": "72a8acb9bc04247b82b0fd4f902be136d8085010ae807e5f97f7921e10753382",
+      "markdown": "# Recall Desk study starter — starter demonstration — Answer key\n\nOpen when you are ready to review the answers.\n\nAdd source identifiers, exact URLs/document names, versions, and sections here. Do not fabricate references.\n\n## Template demonstration\n\n### TEMPLATE-01\n\n**Template demonstration — not a certification question.** What should you do before using this starter as a real practice assessment?\n\n- **A.** Replace the demonstration with source-backed questions and verify every answer.\n- **B.** Only rename the certification.\n- **C.** Reuse another certification’s objective weights without checking.\n- **D.** Treat this demonstration score as proof of mastery.\n\n**Correct answer:** A\n\n**Explanation:**\n\nUse exam.json as the single source of truth. The build command derives the candidate and answer key from it, checks references, and calculates document checksums.\n\n**A:** The starter supplies structure. The actual subject content and answer evidence must be authored and checked.\n\n**B:** Changing the title does not create questions that assess the new subject.\n\n**C:** The objective map should come from the applicable current source.\n\n**D:** This question checks how to use the template, not the subject being studied.\n\n**Objective:** template-authoring · **Diagnostic topic:** Source-backed question authoring\n\n**Sources:**\n- Recall Desk template authoring instructions\n\n---\n"
+    }
+  ],
+  "goal": {
+    "id": "recall-desk-starter-goal",
+    "title": "Recall Desk study starter",
+    "description": "General study starter. Replace demonstration content and source placeholders before assessment.",
+    "examIds": [
+      "recall-desk-starter-baseline"
+    ],
+    "archived": false,
+    "createdAt": "2026-10-11T02:28:36.809Z"
+  },
+  "milestones": [
+    {
+      "id": "recall-desk-starter-baseline",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Phase 0 — Establish a baseline",
+      "description": "Complete the diagnostic with confidence and familiarity annotations. Preserve the original answers.",
+      "status": "planned",
+      "order": 0,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-roadmap",
+          "headingId": "heading-1"
+        }
+      ]
+    },
+    {
+      "id": "recall-desk-starter-triage",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Phase 1 — Review the evidence",
+      "description": "Review reasoning by objective. Select up to three active repair targets; keep the remainder parked.",
+      "status": "planned",
+      "order": 1,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-roadmap",
+          "headingId": "heading-2"
+        }
+      ]
+    },
+    {
+      "id": "recall-desk-starter-repair",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Phase 2 — Repair specific gaps",
+      "description": "Read the smallest relevant guide section, predict a changed scenario, and record the corrected distinction.",
+      "status": "planned",
+      "order": 2,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-roadmap",
+          "headingId": "heading-3"
+        }
+      ]
+    },
+    {
+      "id": "recall-desk-starter-practice",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Phase 3 — Apply the concepts",
+      "description": "Use a small lab, exercise, or relevant course activity. Record expected versus observed behavior.",
+      "status": "planned",
+      "order": 3,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-roadmap",
+          "headingId": "heading-4"
+        }
+      ]
+    },
+    {
+      "id": "recall-desk-starter-transfer",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Phase 4 — Confirm transfer and coverage",
+      "description": "Use fresh scenarios and acknowledge objectives with insufficient evidence. Avoid treating recognition as mastery.",
+      "status": "planned",
+      "order": 4,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-roadmap",
+          "headingId": "heading-5"
+        }
+      ]
+    },
+    {
+      "id": "recall-desk-starter-rehearsal",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Phase 5 — Integrate and rehearse",
+      "description": "Connect concepts in a complete scenario. Use a fresh assessment and review pacing if relevant.",
+      "status": "planned",
+      "order": 5,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-roadmap",
+          "headingId": "heading-6"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "recall-desk-starter-concept-repair",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Targeted concept repair",
+      "description": "Optional: repair one demonstrated gap and explain a close alternative.",
+      "status": "planned",
+      "order": 0,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-guide",
+          "headingId": "heading-3"
+        }
+      ]
+    },
+    {
+      "id": "recall-desk-starter-applied-check",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Small applied check",
+      "description": "Optional: predict and observe one normal and one failure path.",
+      "status": "planned",
+      "order": 1,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-guide",
+          "headingId": "heading-5"
+        }
+      ]
+    },
+    {
+      "id": "recall-desk-starter-transfer-check",
+      "goalId": "recall-desk-starter-goal",
+      "title": "Fresh transfer check",
+      "description": "Optional: change the assumptions and explain the new outcome.",
+      "status": "planned",
+      "order": 2,
+      "targetAttempts": 1,
+      "resourceRefs": [
+        {
+          "resourceId": "recall-desk-starter-guide",
+          "headingId": "heading-6"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Starter contains a labeled demonstration question. Replace it and the source placeholders before using it for actual study."
+  ]
+}
